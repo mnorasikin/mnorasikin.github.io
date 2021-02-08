@@ -290,8 +290,8 @@
                             <div>Proceedings of the 2019 ACM International Conference on Interactive Surfaces and Spaces November (2019) pp. 113–122 </div>
                             <p>GPA: 3.23</p>
                             <p>
-                                <button type="button" class="btn btn-outline-dark"><a href"https://dl.acm.org/doi/pdf/10.1145/3343055.3359704">PDF</a></button>
-                                <button type="button" class="btn btn-outline-dark"><a href="https://doi.org/10.1145/3343055.3359704">DOI</a></button>
+                                <a href="https://dl.acm.org/doi/pdf/10.1145/3343055.3359704" class="btn btn-outline-dark" role="button">DOI</a>
+                                <a href="https://doi.org/10.1145/3343055.3359704" class="btn btn-outline-dark" role="button">DOI</a>
                                 <button type="button" class="btn btn-outline-dark" data-toggle="modal" data-target="#myModal">Cite</button>
 
                                 <!-- Button to Open the Modal -->
@@ -303,13 +303,30 @@
 
                                       <!-- Modal Header -->
                                       <div class="modal-header">
-                                        <h4 class="modal-title">Modal Heading</h4>
+                                        <h4 class="modal-title">Bibtex</h4>
                                         <button type="button" class="close" data-dismiss="modal">&times;</button>
                                       </div>
 
                                       <!-- Modal body -->
                                       <div class="modal-body">
-                                        Modal body..
+                                        @inproceedings{10.1145/3343055.3359704,
+                                        author = {Norasikin, Mohd Adili and Martinez-Plasencia, Diego and Memoli, Gianluca and Subramanian, Sriram},
+                                        title = {SonicSpray: A Technique to Reconfigure Permeable Mid-Air Displays},
+                                        year = {2019},
+                                        isbn = {9781450368919},
+                                        publisher = {Association for Computing Machinery},
+                                        address = {New York, NY, USA},
+                                        url = {https://doi.org/10.1145/3343055.3359704},
+                                        doi = {10.1145/3343055.3359704},
+                                        abstract = {Permeable, mid-air displays, such as those using fog or water mist are limited by our ability to shape and control the aerosol and deal with two major issues: (1) the size and complexity of the system, and (2) the creation of laminar flow, to retain display quality. Here we present SonicSpray, a technique using ultrasonic Bessel beams to create reconfigurable mid-air displays. We build a prototype from low-cost, off-the-shelf parts. We explore the potential and limitations of SonicSpray to create and redirect laminar flows of fog. We demonstrate a working prototype that precisely controls laminar aerosols through only 6x6 ultrasound transducers array. We describe the implementation steps to build the device, verify the control and projection algorithm for the display, and evaluate its performance. We finally report our exploration of several useful applications, in learning, entertainment and arts.},
+                                        booktitle = {Proceedings of the 2019 ACM International Conference on Interactive Surfaces and Spaces},
+                                        pages = {113–122},
+                                        numpages = {10},
+                                        keywords = {permeable mid-air display, reconfigurable mid-air displays, ultrasonic control},
+                                        location = {Daejeon, Republic of Korea},
+                                        series = {ISS '19}
+                                        }
+
                                       </div>
 
                                       <!-- Modal footer -->
